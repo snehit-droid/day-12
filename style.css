@@ -1,0 +1,196 @@
+body{
+    font-family: Architects Daughter;
+    font-size: 25px;
+    background-color: aquamarine;
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center; */
+    overflow-x: hidden;
+}
+
+.pc{
+    position: absolute;
+    width: 14%;
+    top: 35px;
+    left: 80px;
+    border-radius: 50%;
+    border: 1px outset chocolate;
+}
+
+.name{
+    font-size: 60px;
+    position: absolute;
+    position: relative;
+    top: 0;
+    bottom: 5px;
+}
+
+.container{
+    width: auto;
+    background-image: url("bkg.jpg");
+    background-size: cover;
+    padding: 10px 20px 10px;
+    margin: 0 auto;
+    overflow: inherit;
+}
+
+.credentials{
+    font-size: 20px;
+    line-height: 1.2;
+    position: relative;
+    top: 0px;
+    left: 970px;
+}
+
+.tk{
+    margin: 20px 20px 20px 20px;
+    margin-left: 800px;
+    border-left: blueviolet 3px solid;
+    border-right: blueviolet 3px solid;
+    border-radius: 10px;
+    padding: 14px;   
+}
+
+.certificate{
+    margin: 20px 20px 20px 20px;
+    margin-right: 800px;
+    border-left: blueviolet 3px solid;
+    border-right: blueviolet 3px solid;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.strength{
+    margin: 20px 20px 20px 20px;
+    margin-left: 800px;
+    border-left: blueviolet 3px solid;
+    border-right: blueviolet 3px solid;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.internship{
+    margin: 20px 20px 20px 20px;
+    margin-right: 800px;
+    border-left: blueviolet 3px solid;
+    border-right: blueviolet 3px solid;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.project{
+    margin: 20px 20px 20px 20px;
+    margin-left: 800px;
+    border-left: blueviolet 3px solid;
+    border-right: blueviolet 3px solid;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.hobby{
+    margin: 20px 20px 20px 20px;
+    margin-right: 800px;
+    border-left: blueviolet 3px solid;
+    border-right: blueviolet 3px solid;
+    border-radius: 10px;
+    padding: 14px; 
+}
+
+.space{
+    padding: 0 5px 5px 10px;
+    /*padding-bottom: 5px;*/
+}
+
+.career{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: orangered 3px solid;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.lk{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: orangered 3px solid;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+
+h1{
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    padding: 10px 0 10px;
+    text-align: center; 
+}
+
+h2{
+    background-color: wheat;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 23px;
+    margin-left: 3px;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 6px 5px 12px #ccc;
+    /*text-shadow: 5px 8px 12px #ccc;*/
+}
+
+hr{
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: black;
+}
+
+ol, ul{
+    list-style-position: inside;
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+ol li, ul li{
+    padding: 5px 0;
+}
+
+p{
+    padding: 0 5px 5px 10px;
+    margin: 10px;
+}
+
+
+.tki{
+    position: absolute;
+    top: 650px;
+    left: 240px;
+}
+.hb{
+    position: absolute;
+    top: 2830px;
+    left: 900px;
+}
+.ct{
+    position: absolute;
+    top: 1050px;
+    left: 900px;
+}
+.it{
+    position: absolute;
+    top: 1900px;
+    left: 900px;
+}
+.pj{
+    position: absolute;
+    top: 2450px;
+    left: 240px;
+}
+.st{
+    position: absolute;
+    top: 1530px;
+    left: 240px;
+}

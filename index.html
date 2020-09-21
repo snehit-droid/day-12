@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <script>
+       var container = document.createElement('div');
+        container.classList.add('container') 
+
+        var img = document.createElement('IMG');
+        img.setAttribute("src", "pc.jpg");
+        img.setAttribute("alt", "profile pic");
+        img.classList.add('pc')
+
+        var header = document.createElement('h1');
+        header.innerText = "SNEHIT TELAGAMSETTY";
+        header.classList.add('name')
+
+        var credential = document.createElement('div');
+        credential.classList.add('credentials')
+
+        var address = document.createElement('span');
+        address.classList.add('address') 
+
+        var line1 = document.createElement('B');
+        var line2 = document.createElement('B');
+        var line3 = document.createElement('B');
+        var line4 = document.createElement('B');
+        var line5 = document.createElement('B');
+
+        line1.innerHTML = 'Address: 403, Sri Sai Sadan,';
+        line2.innerHTML = 'Spring Fields, Jeedimetla Village,';
+        line3.innerHTML = 'Secunderabad-500067';
+        line4.innerHTML = 'Mobile: +91 7032367712/7989150037';
+        line5.innerHTML = 'E-mail: snehitsetty@gmail.com';
+
+        var sr1 = document.createElement("BR");
+        var sr2 = document.createElement("BR");
+        var sr3 = document.createElement("BR");
+        var sr4 = document.createElement("BR");
+
+        address.append(line1, sr1, line2, sr2, line3, sr3, line4, sr4, line5);
+        credential.append(address)
+
+        var x = document.createElement("HR");
+
+        var career = document.createElement('div');
+        career.classList.add('career')
+
+        var y = document.createElement("H2");
+        y.innerHTML = 'Career Objective';
+
+        var z = document.createElement("P");
+        z.innerHTML = 'To furnish a career and make a sound position in the field of Electrical & Electronics Engineering. To succeed in an environment of growth and excellence, earn a job which provides me job satisfaction and self-development helping me achieve my personal goals in parallel contributing to the growth of the organization as well.';
+
+        career.append(y, z);
+
+        var tki = document.createElement("IMG");
+        tki.setAttribute("src", "tk_1.jpg");
+        tki.setAttribute("alt", "technical knowledge logo");
+        tki.classList.add('tki')
+
+        var tech = document.createElement("span");
+
+        var tk = document.createElement("div");
+        tk.classList.add('tk')
+
+        var x1 = document.createElement("H2");
+        x1.innerHTML = 'Technical Knowledge';
+
+        var u1 = document.createElement("UL");
+        var u1li1 = document.createElement("LI");
+        u1li1.innerHTML = 'Good knowledge on all the core subjects of Electrical and Electronics Engineering.';
+        var u1li2 = document.createElement("LI");
+        u1li2.innerHTML = 'Knowledge of basics of programming languages like C, C++, MATLAB, Python.';
+        var u1li3 = document.createElement("LI");
+        u1li3.innerHTML = 'Industrial Automation in NPTEL.';
+        var u1li4 = document.createElement("LI");
+        u1li4.innerHTML = 'PLC programming basics.';
+
+        u1.append(u1li1, u1li2, u1li3, u1li4);
+        tk.append(x1, u1);
+
+        tech.appendChild(tk);
+
+        var br1 = document.createElement("BR");
+        tech.append(br1);
+
+        var ct = document.createElement("IMG");
+        ct.setAttribute("src", "ct.jpg");
+        ct.setAttribute("alt", "certificate logo");
+        ct.classList.add('ct')
+
+        var certificate = document.createElement("div");
+        certificate.classList.add('certificate');
+
+        var x2 = document.createElement("H2");
+        x2.innerHTML = 'Certificates';
+
+        var y2 = document.createElement('P');
+        y2.innerText = 'I have completed courses in,';
+        y2.classList.add('space');
+
+        var o1 = document.createElement("OL");
+        var o1li1 = document.createElement("LI");
+        o1li1.innerHTML = 'Analog Electronics Circuit course in NPTEL IIT Madras.';
+        var o1li2 = document.createElement("LI");
+        o1li2.innerHTML = 'Advanced Linear Continuous Control systems course in NPTEL, IIT Roorkee.';
+        var o1li3 = document.createElement("LI");
+        o1li3.innerHTML = 'Joy of computing using Python course in NPTEL, IIT Madras.';
+        var o1li4 = document.createElement("LI");
+        o1li4.innerHTML = 'Pursuing Deep learning.';
+        var o1li5 = document.createElement("LI");
+        o1li5.innerHTML = 'Foundations for Big Data Analysis with SQL (with Honors), Coursera.';
+
+        o1.append(o1li1, o1li2, o1li3, o1li4, o1li5);       
+        certificate.append(x2, y2, o1);
+
+        var br2 = document.createElement("BR");
+        certificate.append(br1);
+
+        var st = document.createElement("IMG");
+        st.setAttribute("src", "st.jpg");
+        st.setAttribute("alt", "Strength logo");
+        st.classList.add('st')
+
+        var strength = document.createElement("div");
+        strength.classList.add('strength');
+
+        var x3 = document.createElement("H2");
+        x3.innerHTML = 'Strengths';
+
+        var u2 = document.createElement("UL");
+        var u2li1 = document.createElement("LI");
+        u2li1.innerHTML = 'Quick learner.';
+        var u2li2 = document.createElement("LI");
+        u2li2.innerHTML = 'Good Analytical skills.';
+        var u2li3 = document.createElement("LI");
+        u2li3.innerHTML = 'Logical skills.';
+        var u2li4 = document.createElement("LI");
+        u2li4.innerHTML = 'Initiator and passionate about working.';
+        var u2li5 = document.createElement("LI");
+        u2li5.innerHTML = 'Good grasping ability.';
+
+        u2.append(u2li1, u2li2, u2li3, u2li4, u2li5);       
+        strength.append(x3, u2);
+
+        var br3 = document.createElement("BR");
+        strength.append(br3);
+
+        var it = document.createElement("IMG");
+        it.setAttribute("src", "it.jpg");
+        it.setAttribute("alt", "Internship logo");
+        it.classList.add('it')
+
+        var internship = document.createElement("div");
+        internship.classList.add('internship');
+
+        var x4 = document.createElement("H2");
+        x4.innerHTML = 'Internships';
+
+        var u3 = document.createElement("UL");
+        var u3li1 = document.createElement("LI");
+        u3li1.innerHTML = 'One Month internship program, exposed to the IoT using Thing speak & Cloud Server at Cloud Technologies, Hyderabad.';
+        var u3li2 = document.createElement("LI");
+        u3li2.innerHTML = 'Three Month internship program at ABB Robotics Peenya Bangalore. Machine tending with robot automation under pick and place robot| Rapid programming| Testing and configuration of new robots. And preparing reports for the project.';
+        
+        u3.append(u3li1, u3li2);       
+        internship.append(x4, u3);
+
+        var br4 = document.createElement("BR");
+        internship.append(br4);
+
+        var pj = document.createElement("IMG");
+        pj.setAttribute("src", "pj_1.jpg");
+        pj.setAttribute("alt", "project logo");
+        pj.classList.add('pj')
+
+        var project = document.createElement("div");
+        project.classList.add('project');
+
+        var x5 = document.createElement("H2");
+        x5.innerHTML = 'Projects';
+
+        var u4 = document.createElement("UL");
+        var u4li1 = document.createElement("LI");
+        u4li1.innerHTML = 'Made a luggage trolley on which we can skate instead of dragging it along with us.';
+        var u4li2 = document.createElement("LI");
+        u4li2.innerHTML = 'Made a prototype drone for surveillance.';
+        var u4li3 = document.createElement("LI");
+        u4li3.innerHTML = 'Made a Radio frequency transmitter.';
+        var u4li4 = document.createElement("LI");
+        u4li4.innerHTML = 'Done some Arduino projects using sensors.';
+        var u4li5 = document.createElement("LI");
+        u4li5.innerHTML = 'modeling, computational and performance analysis of the simplest fuzzy PI/PD controller.';
+
+        u4.append(u4li1, u4li2, u4li3, u4li4, u4li5);       
+        project.append(x5, u4);
+
+        var br4 = document.createElement("BR");
+        project.append(br4);
+
+        var hb = document.createElement("IMG");
+        hb.setAttribute("src", "hbb_1.jpg");
+        hb.setAttribute("alt", "hobby logo");
+        hb.classList.add('hb')
+
+        var hobby = document.createElement("div");
+        hobby.classList.add('hobby');
+
+        var x6 = document.createElement("H2");
+        x6.innerHTML = 'Hobbies';
+
+        var u5 = document.createElement("UL");
+        var u5li1 = document.createElement("LI");
+        u5li1.innerHTML = 'Reading and acquiring knowledge about new technologies especially about cars, bikes and gadgets.';
+        var u5li2 = document.createElement("LI");
+        u5li2.innerHTML = 'Playing basketball and badminton.';
+        var u5li3 = document.createElement("LI");
+        u5li3.innerHTML = 'Writing stories.';
+        
+        u5.append(u5li1, u5li2, u5li3);       
+        hobby.append(x6, u5);
+
+        var br5 = document.createElement("BR");
+        hobby.append(br5);
+
+        var lk = document.createElement("div");
+        lk.classList.add('lk');
+
+        var x7 = document.createElement("H2");
+        x7.innerHTML = 'Languages Known';
+
+        var u6 = document.createElement("UL");
+        var u6li1 = document.createElement("LI");
+        u6li1.innerHTML = 'English, Hindi, and Telugu.';
+
+        u6.append(u6li1);       
+        lk.append(x7, u6);
+
+        var br6 = document.createElement("BR");
+        lk.append(br6);
+
+        container.append(img, header, credential, x, career, tki, tech, ct, certificate, st, strength, it, internship, pj, project, hb, hobby, lk);
+
+        document.body.append(container);
+    </script>
+</body>
+</html>
